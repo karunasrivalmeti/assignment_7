@@ -1,0 +1,32 @@
+.box{
+    /* background-color: yellow; */
+    width: 330px;
+    border-radius: 13px;
+    border-color: red;
+}
+.img{
+    border: 2px solid black;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.type{
+   margin-bottom: -10px;
+}
+.horizontal{
+    padding:5px 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    border: none;
+    padding: 15px 30px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.btn:hover{
+    border: 2px solid blue;
+    cursor: pointer;
+}
